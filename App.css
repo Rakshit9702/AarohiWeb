@@ -1,0 +1,103 @@
+
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: url('../public/Untitled\ design.png') no-repeat center center fixed; /* Set the background image */
+  background-size: cover;
+  
+}
+
+
+
+.aarohilogo {
+  background-image: url("../public/aarohiLogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50px;
+  width: 100px;
+}
+.navbar-nav{
+  justify-content: end;
+}
+.navbar-collapse{
+  justify-content: end;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease; /* Smooth color transition */
+  font-weight: 900;
+}
+
+.nav-links li a:hover {
+  color: rgb(244, 195, 50); /* Change text color to yellow on hover */
+}
+
+.section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home {
+  /* background-color: #f4f4f4; */
+}
+
+#about {
+  /* background-color: #ddd; */
+}
+
+#responsibilities {
+  /* background-color: #bbb; */
+}
+
+#contact {
+  /* background-color: #999; */
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
